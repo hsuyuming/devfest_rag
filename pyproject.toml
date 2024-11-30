@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "devfest-rag"
+version = "0.1.0"
+description = ""
+authors = ["ABE HSU <abego452@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.10, <4.0"
+python-dotenv = ">=1.0.1"
+google-cloud-discoveryengine = ">=0.13.4"
+langchain-google-community = ">=2.0.2"
+langchain-google-vertexai = ">=2.0.7"
+markdown = ">=3.7"
+rich = ">=13.9.4"
+pydantic = "2.9.2"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.5"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
